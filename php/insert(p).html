@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="insert(p).php" method="post">
+        <table border="2px" align="center">
+           <tr>
+             <td>BOOK ID</td>
+             <td><input type="number" name="id" id="id"></td>
+           </tr>             
+           <tr>
+             <td>BOOK NAME</td>
+             <td><input type="text" name="nm" id="nm"></td>
+           </tr>
+           <tr>  
+             <td>SUBJECT</td>
+             <td>
+                <select name="sub" id="sub">
+                    <option value="">select</option>
+                    <option value="MATHS">MATHS</option>
+                    <option value="HTML">HTML</option>
+                    <option value="PHP">PHP</option>
+                    <option value="DS">DS</option>
+                </select>
+             </td>
+           </tr>
+           <tr> 
+             <td>BOOK PRICE</td>
+             <td><input type="number" name="pr" id="pr"></td>
+           </tr>
+           <tr>
+            <td>
+                <input type="submit" value="save"><input type="reset" value="reset">
+            </td>
+           </tr>
+        </table>
+    </form>
+</body>
+</html>
